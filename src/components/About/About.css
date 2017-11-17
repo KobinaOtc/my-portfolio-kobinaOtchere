@@ -1,0 +1,14 @@
+.txt {
+  color: #926874;
+}
+
+.col-md-7 p {
+  padding-top: 10px;
+  line-height: 45px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+.al {
+  margin: auto, 0;
+}

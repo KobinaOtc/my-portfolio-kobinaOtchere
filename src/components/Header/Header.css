@@ -1,0 +1,34 @@
+.fixed-image {
+  color: white;
+  background-image: url("https://static.pexels.com/photos/74780/winter-road-arrow-74780.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+}
+
+.light-color {
+  height: 55vh;
+  margin-top: -55vh;
+  background-color: rgba(146,104,116,0.5);
+}
+
+.img-border {
+  border: solid 20px rgba(146,104,116,0.6);
+  border-radius: 40px;
+}
+
+
+/*@media (max-width: 1000px) {
+  .fixed-image {
+    height: 135vh;
+  }
+  .light-color {
+    height: 135vh;
+    margin-top: -135vh;
+  }
+  .img-border {
+    max-width: 320px;
+    max-height: 300px;
+  }
+}*/

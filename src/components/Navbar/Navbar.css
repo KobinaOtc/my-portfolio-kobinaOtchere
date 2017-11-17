@@ -1,0 +1,11 @@
+.nav-custom {
+  background-color: #926874;
+}
+
+.nav-custom a {
+  color: white !important;
+}
+
+.navbar-toggler {
+  background-color: white;
+}

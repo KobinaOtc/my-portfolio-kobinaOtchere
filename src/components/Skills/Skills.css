@@ -1,0 +1,46 @@
+.bckG {
+  background-image: url("https://images.pexels.com/photos/190448/pexels-photo-190448.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  /*height: 120vh;*/
+}
+
+.color-over {
+  height: 120vh;
+  background-color: rgba(146,104,116,0.89);
+  margin-top: -120vh;
+}
+
+.padd {
+  margin-top: 12vh
+}
+
+.siz {
+  max-width: 180px;
+  max-height: 120px;
+}
+
+.text-container {
+  margin: auto;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .color-over {
+    height: 160vh;
+    margin-top: -160vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .bckG {
+    height: 185vh;
+  }
+  .color-over {
+    height: 185vh;
+    margin-top: -185vh;
+  }
+}
