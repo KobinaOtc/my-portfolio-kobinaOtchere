@@ -13,12 +13,12 @@ const settings = {
 
 let portfolioPicsNLinks = [
   {
-    imgUrl: "/images/escape-the-room-project.png",
+    imgUrl: "https://i.imgur.com/kThZxsS.png",
     name: "Escape The Room",
     url: "https://github.com/KobinaOtc/zork-rpg-style-game"
   },
   {
-    imgUrl: "/images/React-blog.png",
+    imgUrl: "https://i.imgur.com/xjsZIwk.png",
     name: "React Blog",
     url: "https://github.com/KobinaOtc/react-first-blog-project"
   }
