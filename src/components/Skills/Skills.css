@@ -1,5 +1,8 @@
 .bckG {
-  background-image: url("https://images.pexels.com/photos/190448/pexels-photo-190448.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-image:linear-gradient(
+    rgba(146,104,116,0.89),
+    rgba(146,104,116,0.89)
+    ), url("https://images.pexels.com/photos/190448/pexels-photo-190448.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -7,11 +10,11 @@
   /*height: 120vh;*/
 }
 
-.color-over {
+/*.color-over {
   height: 120vh;
   background-color: rgba(146,104,116,0.89);
   margin-top: -120vh;
-}
+}*/
 
 .padd {
   margin-top: 12vh
@@ -28,7 +31,7 @@
 }
 
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .color-over {
     height: 160vh;
     margin-top: -160vh;
@@ -43,4 +46,4 @@
     height: 185vh;
     margin-top: -185vh;
   }
-}
+}*/

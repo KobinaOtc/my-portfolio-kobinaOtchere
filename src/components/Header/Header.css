@@ -1,17 +1,20 @@
 .fixed-image {
   color: white;
-  background-image: url("https://static.pexels.com/photos/74780/winter-road-arrow-74780.jpeg");
+  background:linear-gradient(
+    rgba(146,104,116,0.5),
+    rgba(146,104,116,0.5)
+    ), url("https://images.pexels.com/photos/74780/winter-road-arrow-74780.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 55vh;
+  /*height: 40vh;*/
 }
 
-.light-color {
+/*.light-color {
   height: 55vh;
   margin-top: -55vh;
   background-color: rgba(146,104,116,0.5);
-}
+}*/
 
 .img-border {
   border: solid 20px rgba(146,104,116,0.6);
